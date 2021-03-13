@@ -1,6 +1,7 @@
 var acc = document.getElementsByClassName('accordion');
 var i;
 
+  //раскрытие аккординга
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener('click', function() {
     this.classList.toggle('active');
@@ -11,7 +12,7 @@ for (i = 0; i < acc.length; i++) {
       panel.style.maxHeight = panel.scrollHeight + 'px';
     } 
   });
-
+  //таймер
   function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
@@ -59,6 +60,7 @@ for (i = 0; i < acc.length; i++) {
     input.value = input.value.replace (/[^\+\d]/g, '');
   }
   
+  //Валидация 
   $(".form").each(function() {
     $(this).validate({
       errorClass: "invalid",
@@ -85,6 +87,7 @@ for (i = 0; i < acc.length; i++) {
       },
     });
   });
+  //Анимация 
   AOS.init();
 
 }
