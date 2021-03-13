@@ -1,0 +1,146 @@
+.content
+    font-family: "Roboto"
+    &-manage
+        border-radius: 8px
+        background: linear-gradient(to bottom, #442ea86e, #041025)
+        padding-bottom: 20px
+.title
+    font-size: 40px
+    padding-left: 20px
+    color: #ffffff
+    padding-bottom: 5px
+    width: 100%
+    position: relative
+    top: 0
+    &-discount
+        color: #ff0000
+        text-transform: uppercase
+.title:before
+    content: ''
+    width: 89%
+    height: 2px
+    background-color: #e50000
+    position: absolute
+    bottom: 0
+
+.countdown-titles
+    color: #ff0000
+    font-weight: 50
+    font-size: 30px
+    margin: 40px 0px 20px
+
+.countdown
+    color: #ff0000
+    display: inline-block
+    font-weight: 100
+    text-align: center
+    font-size: 30px
+
+.countdown-number
+    padding: 10px
+    border-radius: 3px
+    background: #c81af3
+    display: inline-block
+
+.countdown-time
+    padding: 15px
+    border-radius: 3px
+    background: #6d0468
+    display: inline-block
+
+.countdown-texts
+    display: block
+    padding-top: 5px
+    font-size: 16px
+.timer
+    width: 460px
+    padding-left: 20px
+.product
+    width: 150px
+.price
+    width: 400px
+    padding-top: 50px
+    &-photo
+        display: flex
+        justify-content: center
+.oldprice-grey
+    display: flex
+    justify-content: space-between
+    width: 290px
+    align-items: center
+.color
+    font-size: 25px
+    color: #646464
+    font-weight: bold
+    list-style: none
+.redprice
+    font-size: 40px
+    color: #ff0000
+    font-weight: bold
+    list-style: none
+    animation-name: moveRas
+    animation-duration: 0.5s
+    animation-iteration-count: infinite
+    animation-direction: alternate
+@keyframes moveRas
+    form
+        transform: translateX(0)
+    to
+        transform: translateX(10px)
+.connection-us
+    color: #ffffff
+    font-size: 30px
+    font-weight: 400
+.main
+    display: flex
+    justify-content: space-between
+.input-names
+    border: none
+    border-bottom: 1px solid #fff
+    background-color: transparent
+    color: #fff
+    outline: none
+    font-size: 25px
+    position: absolute
+    width: 315px
+.telephone
+    position: absolute
+    width: 300px
+    &-phoneinput
+        border: none
+        border-bottom: 1px solid #fff
+        background-color: transparent
+        color: #fff
+        outline: none
+        font-size: 25px
+        padding-top: 40px
+        width: 315px
+.mails
+    padding-top: 55px
+.buttons
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 35px
+    width: 300px
+    height: 80px
+    font-size: 30px
+    margin: auto
+    color: #000000
+    background-color: #2529ff
+    border: none
+    border-radius: 8px
+    text-decoration: none
+    font-family: "Roboto"
+    cursor: pointer
+    margin-top: 35px
+.buttons:hover
+    background-color: #1113a8
+    transition: 0.5s
+.form
+    margin-right: 70px
+    padding-top: 35px
+.invalid
+    color: #ff0000
+    display: flex
+    justify-content: flex-end
